@@ -1,5 +1,4 @@
-function greet(){
- console.log('hello everybody!');   
+function greet () {
+  console.log('hello everybody!')
 }
-greet(); // output: hello everybody!
-
+greet() // output: hello everybody!

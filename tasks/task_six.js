@@ -1,5 +1,5 @@
-let greet = (name = 'guest') => {
-    console.log('hello ' + name + '!');
+const greet = (name = 'guest') => {
+  console.log('hello ' + name + '!')
 }
 
 greet('tom') // output: hello tom!

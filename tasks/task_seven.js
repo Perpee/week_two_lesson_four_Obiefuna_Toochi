@@ -1,12 +1,11 @@
-function materials(){
-    let insideVar = "ankara"
+function materials () {
+  const insideVar = 'ankara'
 }
 materials()
-console.log(insideVar); // error: insideVar is not defined
+console.log(insideVar) // error: insideVar is not defined
 
-
-let outsideVar = "sequin"
-function material(){
-    console.log(outsideVar); // output: sequin
+const outsideVar = 'sequin'
+function material () {
+  console.log(outsideVar) // output: sequin
 }
 material()
